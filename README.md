@@ -1,4 +1,4 @@
-<h1><img width="200px" alt="Hot Takes" src="https://raw.githubusercontent.com/MaelTst/MaelTissot_6_03112021/main/frontend/assets/images/flame.png" /></h1>
+<h1><img height="100px" alt="Hot Takes" src="https://raw.githubusercontent.com/MaelTst/MaelTissot_6_03112021/main/frontend/assets/images/flame.png" /></h1>
 
 # Objectif
 L'objectif de ce projet est de concevoir le backend d'une application de critique des sauces piquantes appelée « Hot Takes ».
