@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Définition du schéma servant de modèle pour les Sauces
 const sauceSchema = mongoose.Schema({
     userId: { type: String, required: true },
     name: { type: String, required: true },
@@ -13,6 +14,5 @@ const sauceSchema = mongoose.Schema({
     usersLiked: { type: [String] },
     usersDisliked: { type: [String] },
 });
-
 
 module.exports = mongoose.model('Sauce', sauceSchema);
