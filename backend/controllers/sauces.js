@@ -86,7 +86,7 @@ exports.deleteSauce = (req, res, next) => {
         .then(sauce => {
             if (sauce.userId === req.token.userId) {
                 const filename = sauce.imageUrl.split('/images/')[1];
-                fs.unlink(`images/${filename}`, () => {
+                fs.unlink(`img/${filename}`, () => {
                     Sauce.deleteOne({ _id: req.params.id })
                         .then(() => res.status(200).json({ message: `La sauce a été supprimée` }))
                         .catch(error => res.status(404).json({ error }));
